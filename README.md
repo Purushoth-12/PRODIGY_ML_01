@@ -23,3 +23,17 @@ Kaggle House Prices Dataset
 
 ## Author
 Purushothaman S
+
+## Workflow
+1. Load dataset
+2. Data preprocessing
+3. Feature selection
+4. Train-Test Split
+5. Linear Regression Model Training
+6. Prediction
+7. Model Evaluation
+8. Visualization of Results
+
+## Output
+
+![Output](predictions_plot.png)
