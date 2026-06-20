@@ -77,10 +77,3 @@ The script outputs an **Actual vs. Predicted Price Plot** to evaluate performanc
 
 ---
 
-## 🚀 How To Run the Project
-
-1. Clone the repository or save your files locally. Make sure your script (`main.py`) and the dataset (`train.csv`) are stored in the same project directory.
-2. Install the required packages via your terminal:
-
-```bash
-pip install pandas numpy matplotlib scikit-learn
