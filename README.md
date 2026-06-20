@@ -76,4 +76,8 @@ The script outputs an **Actual vs. Predicted Price Plot** to evaluate performanc
 * **\$300k+ Bracket (Underprediction Bias):** High-end luxury homes systematically fall below the line of perfect fit. This indicates that while structural metrics (square footage and rooms) anchor a property's base value, premium real estate prices are heavily driven by features outside our 3 isolated variables (e.g., neighborhood quality, luxury build materials, or land size).
 
 ---
+## Future Improvements
 
+- Use Random Forest Regressor
+- Hyperparameter tuning
+- Deploy as a web application
