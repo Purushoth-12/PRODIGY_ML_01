@@ -76,6 +76,25 @@ The script outputs an **Actual vs. Predicted Price Plot** to evaluate performanc
 * **\$300k+ Bracket (Underprediction Bias):** High-end luxury homes systematically fall below the line of perfect fit. This indicates that while structural metrics (square footage and rooms) anchor a property's base value, premium real estate prices are heavily driven by features outside our 3 isolated variables (e.g., neighborhood quality, luxury build materials, or land size).
 
 ---
+## 🔬 Model Development and Evaluation
+
+### Algorithm
+Linear Regression was used to predict house sale prices based on selected housing features.
+
+### Workflow
+1. Loaded and explored the housing dataset.
+2. Selected relevant features, such as living area, bedroom count, and bathroom count.
+3. Split the data into training and testing sets.
+4. Trained the Linear Regression model on the training data.
+5. Evaluated predictions using RMSE and R².
+6. Visualized actual versus predicted prices.
+
+### Evaluation Metrics
+- **RMSE:** Measures prediction error in the same units as the target price.
+- **R² Score:** Measures how much variation in the target is explained by the model.
+
+### Conclusion
+The project demonstrates how supervised machine learning can be used to estimate house prices from housing features. Model performance should be interpreted using the actual test-set metrics and prediction plots.
 ## Future Improvements
 
 - Use Random Forest Regressor
